@@ -1,10 +1,12 @@
 import React from 'react';
-import Nav from './Nav';
+import Nav from '../Nav/Nav';
+import geist from './Giest.png';
+
 
 function Header() {
     return (
         <div className="header">
-            <h1>Header</h1>
+            <img src={geist} alt="geist" />
             <Nav></Nav>
         </div>
     );
