@@ -10,7 +10,7 @@ export const divAnchor = "flex items-center";
 
 // !===!
 
-export const anchorImg = "h-8 mr-3 rounded-full";
+export const anchorImg = "w-10 mr-3 rounded-full";
 
 // !===!
 

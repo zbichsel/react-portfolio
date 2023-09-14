@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../images/Giest.png';
+import logo from '../../images/sixFK901.svg';
 import { navWrapper, divWrapper, divAnchor, anchorImg, anchorSpan, navbtn, btnSpan, btnSvg, itemsdiv, itemsul, items } from './styles';
 
 
@@ -10,10 +10,10 @@ function Nav() {
         <>
             <nav className={navWrapper}>
                 <div className={divWrapper}>
-                    <a href="#" className={divAnchor}>
+                    <Link to="/" className={divAnchor}>
                         <img src={logo} className={anchorImg} alt="Logo" />
                         <span className={anchorSpan}>Geist</span>
-                    </a>
+                    </Link>
                     <button data-collapse-toggle="navbar-default" type="button" className={navbtn} aria-controls="navbar-default" aria-expanded="false">
                         <span className={btnSpan}>Open main menu</span>
                         <svg className={btnSvg} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -23,16 +23,16 @@ function Nav() {
                     <div className={itemsdiv} id="navbar-default">
                         <ul className={itemsul}>
                             <li>
-                                <a href="#" className={items}>Home</a>
+                                <Link to="/" className={items}>Home</Link>
                             </li>
                             <li>
-                                <a href="#" className={items}>About</a>
+                                <Link to="/about" className={items}>About</Link>
                             </li>
                             <li>
-                                <a href="#" className={items}>Portfolio</a>
+                                <Link to="/portfolio" className={items}>Portfolio</Link>
                             </li>
                             <li>
-                                <a href="#" className={items}>Resume</a>
+                                <Link to="/resume" className={items}>Resume</Link>
                             </li>
                         </ul>
                     </div>
