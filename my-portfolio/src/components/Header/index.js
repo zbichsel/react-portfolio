@@ -1,15 +1,14 @@
 import React from 'react';
-import Nav from '../Nav/Nav';
-import geist from './Giest.png';
+import pic from '../../images/zack.jpeg';
+import logo from '../../images/other.svg';
+import { divWrapper, divImg, divH1 } from './styles';
 
 
-function Header() {
+export default function Header() {
     return (
-        <div className="header">
-            <img src={geist} alt="geist" />
-            <Nav></Nav>
+        <div className={divWrapper}>
+            <div className={divImg} style={{ backgroundImage: `url(${pic})` }}></div>
+            <h1 className={divH1} style={{ backgroundImage: `url(${logo})` }}>Zackrey Bichsel</h1>
         </div>
     );
 }
-
-export default Header;
