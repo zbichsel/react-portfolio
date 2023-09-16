@@ -24,8 +24,11 @@ export default function Footer() {
                             className={a1}
                         >
                             <svg
+                                xlmns="http://www.w3.org/2000/svg"
                                 className={svg2}
                                 viewBox="0 0 24 24"
+                                width="36"
+                                height="36"
                                 strokeLinejoin="round"
                                 strokeWidth="2"
                                 strokeLinecap="round"
@@ -33,10 +36,13 @@ export default function Footer() {
                                 stroke="currentColor"
                                 fill="none"
                             >
-                                <rect x="3" y="1" width="7" height="12" />
-                                <rect x="3" y="17" width="7" height="6" />
-                                <rect x="14" y="1" width="7" height="6" />
-                                <rect x="14" y="11" width="7" height="12" />
+                                <path
+                                    stroke="none"
+                                    d="M0 0h24v24H0z"
+                                    fill="none"
+                                    />
+                                <path 
+                                    d="M5 4h14a2 2 0 0 1 1.84 2.75l-7.1 12.25a2 2 0 0 1 -3.5 0l-7.1 -12.25a2 2 0 0 1 1.75 -2.75" />
                             </svg>
                             <span className={span1}>
                                 Geist

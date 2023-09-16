@@ -1,4 +1,4 @@
-export const divWrap = "relative mt-16 bg-gradient-to-b from-[#C0A6BD] via-[#C0A6BD] to-zinc-50";
+export const divWrap = "font-nav antialiased font-semibold relative mt-16 bg-gradient-to-b from-[#C0A6BD] via-[#C0A6BD] to-zinc-50";
 
 // !===!
 
@@ -22,7 +22,7 @@ export const a1 = "inline-flex items-center";
 
 // !===!
 
-export const svg2 = "w-8 text-zinc-50";
+export const svg2 = "w-8 text-pink-400";
 
 // !===!
 
