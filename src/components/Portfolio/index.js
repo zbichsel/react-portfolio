@@ -3,6 +3,7 @@ import { mainWrapper, cardWrapper, imgWrapper, cardTextWrp, cardText, cardP, btn
 import imps from '../../images/ps.png'
 import bookify from '../../images/bookify.png';
 import gth from '../../images/gth.png';
+import tch from '../../images/techblog.png';
 
 function Portfolio() {
     return (
@@ -69,6 +70,29 @@ function Portfolio() {
                 </div>
                 <div className={btnWrapper}>
                     <a href="https://gentle-fortress-84585-60555956fddc.herokuapp.com/">
+                        <button className={btns}
+                        >
+                            View Project
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className={cardWrapper}>
+                <div className={imgWrapper}>
+                    <a href="https://hbstechblog-6cfdfb5424a1.herokuapp.com/">
+                    <img src={tch} alt="Tech Blog Banner" />
+                    </a>
+                </div>
+                <div className={cardTextWrp}>
+                    <h4 className={cardText}>
+                        Tech Blog
+                    </h4>
+                    <p className={cardP}>
+                        MySQL
+                    </p>
+                </div>
+                <div className={btnWrapper}>
+                    <a href="https://hbstechblog-6cfdfb5424a1.herokuapp.com/">
                         <button className={btns}
                         >
                             View Project
