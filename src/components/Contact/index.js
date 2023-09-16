@@ -11,10 +11,10 @@ export default function Contact() {
             <div className={divWrapper3}>
                 <div className={divWrapper4}>
                     <div>
-                        <h2 className={header}>Lets talk about something</h2>
+                        <h2 className={header}>Happy Halloween!</h2>
                         <div className={divWrapper5}>
                             Hate Forms?
-                            Send us an <span className='underline'><a href="mailto:biksel09@gmail.com" className='hover:text-[#D242CF]'>Email</a></span> instead.
+                            Send me an <span className='underline'><a href="mailto:biksel09@gmail.com" className='hover:text-[#D242CF]'>Email</a></span> instead.
                         </div>
                     </div>
                     <div className={divWrapper6}>
