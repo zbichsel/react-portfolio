@@ -1,8 +1,8 @@
-export const divWrapper = "w-auto bg-[#FAF8FB] flex flex-col justify-center items-center p-12 pb-6";
+export const divWrapper = "w-auto bg-[#FAF8FB] flex flex-col justify-center items-center p-12 pt-6";
 
 // !===!
 
-export const divP = "text-justify first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black first-letter:mr-3 first-letter:float-left antialiased font-nav";
+export const divP = "mb-3 text-justify first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-black first-letter:mr-3 first-letter:float-left antialiased font-nav";
 
 // !===!
 

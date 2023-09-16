@@ -1,4 +1,4 @@
-export const divWrapper = "bg-[#FAF8FB] antialiased font-nav px-1 md:px-8 py-12";
+export const divWrapper = "bg-[#FAF8FB] antialiased font-nav px-1 md:px-8 py-6";
 
 // !===!
 
