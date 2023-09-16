@@ -1,4 +1,4 @@
-export const divWrap = "font-nav antialiased font-semibold relative mt-16 bg-gradient-to-b from-[#C0A6BD] via-[#C0A6BD] to-zinc-50";
+export const divWrap = "font-nav antialiased relative mt-16 bg-gradient-to-b from-[#C0A6BD] via-[#C0A6BD] to-zinc-50";
 
 // !===!
 

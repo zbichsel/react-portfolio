@@ -7,8 +7,8 @@ import tch from '../../images/techblog.png';
 
 export default function Portfolio() {
     return (
-        <div className={mainWrapper}>
-            <div className={cardWrapper}>
+        <div className={mainWrapper} id="portfolio">
+            <div className={cardWrapper} >
                 <div className={imgWrapper}>
                     <a href="https://liq543.github.io/Park-Safe/">
                     <img src={imps} alt="Park Safe Banner" />

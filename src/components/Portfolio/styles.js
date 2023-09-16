@@ -14,7 +14,7 @@ export const cardTextWrp = "p-6 text-center";
 
 // !===!
 
-export const cardText = "mb-2 block font-nav text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased";
+export const cardText = "mb-2 block font-nav text-2xl font-semibold leading-snug tracking-normal text-black antialiased";
 
 // !===!
 
@@ -26,6 +26,6 @@ export const btnWrapper = "flex justify-center gap-7 p-6 pt-2";
 
 // !===!
 
-export const btns = "text-[#D242CF] font-nav hover:text-zinc-50 border border-[#D242CF] hover:bg-[#D242CF] focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2";
+export const btns = "text-[#D242CF] uppercase font-nav hover:text-zinc-50 border border-[#D242CF] hover:bg-[#D242CF] focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2";
 
 // !===!

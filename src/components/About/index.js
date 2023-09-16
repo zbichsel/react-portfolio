@@ -5,7 +5,7 @@ import logo from '../../images/zack.jpeg';
 
 export default function About() {
     return (
-        <div className={divWrapper}>
+        <div className={divWrapper} id="about">
             <div className={cardWrapper}>
                 <div className={imgCard}>
                     <a href="https://liq543.github.io/Park-Safe/">

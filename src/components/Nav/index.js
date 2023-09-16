@@ -7,6 +7,27 @@ export default function Nav() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+    const handlePortfolioScroll = () => {
+        const element = document.getElementById('portfolio');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const handleContactScroll = () => {
+        const element = document.getElementById('contact');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    const handleAboutScroll = () => {
+        const element = document.getElementById('about');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <>
             <nav className={navWrapper}>
@@ -33,10 +54,13 @@ export default function Nav() {
                                 <Link to="/" className={items}>Home</Link>
                             </li>
                             <li>
-                                <Link to="/about" className={items}>About</Link>
+                                <button className={items} onClick={handleAboutScroll}>About</button>
                             </li>
                             <li>
-                                <Link to="/portfolio" className={items}>Portfolio</Link>
+                                <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
+                            </li>
+                            <li>
+                                <button className={items} onClick={handleContactScroll}>Contact</button>
                             </li>
                             <li>
                                 <Link to="/resume" className={items}>Resume</Link>
