@@ -1,6 +1,7 @@
 import React from 'react';
-import Nav from '../components/Nav';
 import Header from '../components/Header';
+import Nav from '../components/Nav';
+import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 
 
@@ -10,6 +11,7 @@ export default function Home() {
         <div>
             <Header/>
             <Nav/>
+            <About />
             <Portfolio/>
         </div>
         </>

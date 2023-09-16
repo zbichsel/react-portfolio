@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { navWrapper, divWrapper, btnDiv, btnNav, svg1, svg2, itemsdiv, itemsul, items } from './styles';
 
 
-function Nav() {
+export default function Nav() {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -48,5 +48,3 @@ function Nav() {
         </>
     );
 }
-
-export default Nav;

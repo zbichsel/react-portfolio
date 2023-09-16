@@ -5,7 +5,7 @@ import bookify from '../../images/bookify.png';
 import gth from '../../images/gth.png';
 import tch from '../../images/techblog.png';
 
-function Portfolio() {
+export default function Portfolio() {
     return (
         <div className={mainWrapper}>
             <div className={cardWrapper}>
@@ -103,5 +103,3 @@ function Portfolio() {
         </div>
     );
 }
-
-export default Portfolio;
