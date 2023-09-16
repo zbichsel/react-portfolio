@@ -1,4 +1,4 @@
-export const navWrapper = "bg-[#C0A6BD] border-b-2 border-black";
+export const navWrapper = "bg-[#C0A6BD] border-b border-black";
 
 // !===!
 
@@ -14,11 +14,11 @@ export const btnNav = "flex items-center px-3 py-2 rounded text-black-500 hover:
 
 // !===!
 
-export const svg1 = "fill-white h-10 w-10 border p-1 rounded-md";
+export const svg1 = "fill-white text-zinc-50 h-10 w-10 border border-zinc-50 p-1 rounded-md";
 
 // !===!
 
-export const svg2 = "fill-current h-10 w-10 border p-1 rounded-md ";
+export const svg2 = "fill-current text-zinc-50 h-10 w-10 border border-zinc-50 p-1 rounded-md ";
 
 // !===!
 
