@@ -1,4 +1,4 @@
-export const divWrapper = "w-auto bg-[#FAF8FB] flex flex-col justify-center items-center m-0 p-12";
+export const divWrapper = "w-auto bg-[#FAF8FB] flex flex-col justify-center items-center p-12";
 
 // !===!
 
@@ -13,3 +13,13 @@ export const imgDiv = "flex flex-row flex-wrap justify-center items-center m-1";
 export const imgDimens = "m-1 p-1";
 
 // !===!
+
+export const imgCard = "relative mt-4 ml-2 mr-4 mb-2 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg";
+
+// !===!
+
+export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:hidden";
+
+// !===!
+
+export const imgProps = "w-96";
