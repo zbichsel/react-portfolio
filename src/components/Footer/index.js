@@ -1,5 +1,5 @@
 import React from 'react';
-import { divWrap, svg1, div2, div3, div4, a1, svg2, span1, div5, p1, p2, div6, p3, div7, a2 } from './styles';
+import { divWrap, svg1, div2, div3, div4, a1, svg2, span1, div5, p1, div6, p3, div7, a2 } from './styles';
 
 export default function Footer() {
     return (
