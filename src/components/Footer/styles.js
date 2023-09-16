@@ -34,11 +34,7 @@ export const div5 = "mt-4 lg:max-w-sm";
 
 // !===!
 
-export const p1 = "text-sm text-zinc-50";
-
-// !===!
-
-export const p2 = "mt-4 text-sm text-zinc-50";
+export const p1 = "text-sm text-justify text-zinc-50";
 
 // !===!
 

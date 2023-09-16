@@ -50,13 +50,9 @@ export default function Footer() {
                         </a>
                         <div className={div5}>
                             <p className={p1}>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam.
+                            "I swore never to be silent whenever and wherever human beings endure suffering and humiliation. We must always take sides. Neutrality helps the oppressor, never the victim. Silence encourages the tormentor, never the tormented." — Elie Wiesel
                             </p>
-                            <p className={p2}>
-                                Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo.
-                            </p>
+
                         </div>
                     </div>
                 </div>
