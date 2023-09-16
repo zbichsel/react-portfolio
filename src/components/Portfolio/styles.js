@@ -2,7 +2,7 @@ export const mainWrapper = "bg-[#FAF8FB] flex flex-wrap gap-6 justify-evenly ite
 
 // !===!
 
-export const cardWrapper = "relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md";
+export const cardWrapper = "relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-2";
 
 // !===!
 

@@ -14,12 +14,12 @@ export const imgDimens = "m-1 p-1";
 
 // !===!
 
-export const imgCard = "relative mt-4 ml-2 mr-4 mb-2 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg";
+export const imgCard = "relative mt-4 ml-2 mr-4 mb-2 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg md:hidden";
 
 // !===!
 
-export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl bg-white bg-clip-border text-gray-700 shadow-md md:hidden";
+export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl bg-white bg-clip-border text-gray-700 shadow-md";
 
 // !===!
 
-export const imgProps = "w-96";
+export const imgProps = "w-96"

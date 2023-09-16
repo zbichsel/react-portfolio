@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '400px',
+      },
       fontFamily: {
         'head': 'Cinzel Decorative, cursive',
         'nav': 'Poppins, sans-serif',
