@@ -19,7 +19,7 @@ export default function Contact() {
         e.preventDefault();
         const subject = encodeURIComponent('Contact Request');
         const body = encodeURIComponent(
-            `${formData.message}\n\n\n\n${formData.name}\n\n${formData.email}`
+            `${formData.message}\n\n\n${formData.name}\n\n${formData.email}`
         );
         const mailToUrl = `mailto:biksel09@gmail.com?subject=${subject}&body=${body}`;
         window.location.href = mailToUrl;
