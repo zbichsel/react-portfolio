@@ -1,4 +1,4 @@
-export const navWrapper = "bg-[#C0A6BD] border-b border-black";
+export const navWrapper = "bg-[#C0A6BD] m-0 relative";
 
 // !===!
 
@@ -6,11 +6,11 @@ export const divWrapper = "max-w-screen-xl flex items-center justify-center mx-a
 
 // !===!
 
-export const btnDiv = "block md:hidden";
+export const btnDiv = "md:hidden";
 
 // !===!
 
-export const btnNav = "flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400";
+export const btnNav = "absolute top-[2%] left-[50%] -translate-x-[50%] -translate-y-[50%] px-3 py-2 rounded text-black-500 hover:text-black-400";
 
 // !===!
 

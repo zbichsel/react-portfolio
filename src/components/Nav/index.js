@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { navWrapper, divWrapper, btnDiv, btnNav, svg1, svg2, itemsdiv, itemsul, items } from './styles';
+import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items } from './styles';
 
 
 export default function Nav() {
@@ -33,18 +33,9 @@ export default function Nav() {
             <nav className={navWrapper}>
                 <div className={divWrapper}>
                     <div className={btnDiv}>
-                        <button className={btnNav} onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                            <svg
-                                className={`${svg1} ${isMenuOpen ? "hidden" : "block"}`}
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14"
-                            >
-                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M1 1h15M1 7h15M1 13h15" />
-                            </svg>
-                            <svg
-                                className={`${svg2} ${isMenuOpen ? "block" : "hidden"}`}
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"
-                            >
-                                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                        <button type="button" className={btnNav} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className={svg1}>
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                             </svg>
                         </button>
                     </div>
