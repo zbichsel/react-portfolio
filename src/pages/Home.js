@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 
 
 export default function Home() {
+    console.log("If you're reading this, send me an email throught the contact form and tell me what your favorite scary movie is. 🎃🔪👻\n\nHappy Halloween!");
     return (
         <>
             <Header />
