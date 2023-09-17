@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items } from './styles';
+import Auth from "../../utils/auth";
 
 
 export default function Nav() {
@@ -28,6 +29,57 @@ export default function Nav() {
         }
     };
 
+    function showNav() {
+        if (Auth.loggedIn()) {
+            return (
+                <>
+                    <ul className={itemsul}>
+                        <li>
+                            <Link to="/" className={items}>Home</Link>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handleAboutScroll}>About</button>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handleContactScroll}>Contact</button>
+                        </li>
+                        <li>
+                            <Link to="/resume" className={items}>Resume</Link>
+                        </li>
+                        <a href="/" onClick={() => Auth.logout()}>
+                            <button type="button" class="px-4 py-2 mr-3 md:mr-0">
+                            </button></a>
+                    </ul>
+                </>
+            );
+        } else {
+            return (
+                <>
+                    <ul className={itemsul}>
+                        <li>
+                            <Link to="/" className={items}>Home</Link>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handleAboutScroll}>About</button>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
+                        </li>
+                        <li>
+                            <button className={items} onClick={handleContactScroll}>Contact</button>
+                        </li>
+                        <li>
+                            <Link to="/resume" className={items}>Resume</Link>
+                        </li>
+                    </ul>
+                </>
+            )
+        }
+    }
+
     return (
         <>
             <nav className={navWrapper}>
@@ -40,23 +92,7 @@ export default function Nav() {
                         </button>
                     </div>
                     <div className={`${itemsdiv} ${isMenuOpen ? "block" : "hidden"}`}>
-                        <ul className={itemsul}>
-                            <li>
-                                <Link to="/" className={items}>Home</Link>
-                            </li>
-                            <li>
-                                <button className={items} onClick={handleAboutScroll}>About</button>
-                            </li>
-                            <li>
-                                <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
-                            </li>
-                            <li>
-                                <button className={items} onClick={handleContactScroll}>Contact</button>
-                            </li>
-                            <li>
-                                <Link to="/resume" className={items}>Resume</Link>
-                            </li>
-                        </ul>
+                        {showNav()}
                     </div>
                 </div>
             </nav >

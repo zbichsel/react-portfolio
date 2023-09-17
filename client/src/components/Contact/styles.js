@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen-xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-zinc-50 text-gray-900 rounded-xl shadow-md";
+export const divWrapper3 = "max-w-screen-xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-xl shadow-md";
 
 // !===!
 
