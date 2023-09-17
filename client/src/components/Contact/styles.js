@@ -22,10 +22,6 @@ export const header2 = "mt-2 text-xl lg:text-5xl text-center md:text-left leadin
 
 // !===!
 
-export const divWrapper5 = "text-gray-700 mt-8";
-
-// !===!
-
 export const divWrapper6 = "mt-8 text-center";
 
 // !===!
