@@ -14,7 +14,11 @@ export const divWrapper4 = "flex flex-col justify-between";
 
 // !===!
 
-export const header = "text-4xl lg:text-5xl font-bold leading-tight";
+export const header = "text-4xl lg:text-5xl text-center md:text-left font-bold leading-tight";
+
+// !===!
+
+export const header2 = "mt-2 text-xl lg:text-5xl text-center md:text-left leading-tight";
 
 // !===!
 
@@ -34,7 +38,7 @@ export const input1 = "w-full bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-
 
 // !===!
 
-export const textrea = "w-full h-32 bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const textrea = "w-full h-32 bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
 
 // !===!
 
