@@ -4,9 +4,9 @@ import { useProductReducer } from './reducers'
 const StoreContext = createContext();
 const { Provider } = StoreContext;
 
-const PlantProvider = ({ value = [], ...props }) => {
+const userProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useProductReducer({
-    plants: [],
+    users: [],
   });
 
   return <Provider value={[state, dispatch]} {...props} />;
@@ -16,4 +16,4 @@ const useStoreContext = () => {
   return useContext(StoreContext);
 };
 
-export { PlantProvider, useStoreContext };
+export { userProvider, useStoreContext };

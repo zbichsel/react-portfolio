@@ -1,17 +1,15 @@
 import { gql } from "@apollo/client";
 
 export const ADD_USER = gql`
-  mutation Mutation($firstName: String!, $lastName: String!, $email: String!, $password: String!) {
-    addUser(firstName: $firstName, lastName: $lastName, email: $email, password: $password) {
-      token
-      user {
-        lastName
-        firstName
-        email
-        _id
-      }
+mutation Mutation($firstName: String!, $lastName: String!, $email: String!, $password: String!) {
+  addUser(firstName: $firstName, lastName: $lastName, email: $email, password: $password) {
+    user {
+      lastName
+      firstName
+      email
     }
   }
+}
 `;
 
 // export const ADD_PLANT = gql`
@@ -37,32 +35,24 @@ export const ADD_USER = gql`
 // `;
 
 export const UPDATE_USER = gql`
-  mutation updateUser(
-    $firstName: String
-    $lastName: String
-    $email: String
-    $password: String
-  ) {
-    updateUser(
-      firstName: $firstName
-      lastName: $lastName
-      email: $email
-      password: $password
-    ) {
-      _id
-      firstName
-      lastName
-      email
-    }
+mutation Mutation($firstName: String, $lastName: String, $email: String, $password: String) {
+  updateUser(firstName: $firstName, lastName: $lastName, email: $email, password: $password) {
+    _id
+    email
+    firstName
+    lastName
   }
+}
 `;
 
 export const DELETE_USER = gql`
-  mutation deleteUser($_id: ID!) {
-    deleteUser(_id: $_id) {
-      _id
-    }
+mutation DeleteUser($id: ID!) {
+  deleteUser(_id: $id) {
+    firstName
+    lastName
+    email
   }
+}
 `;
 
 // export const DELETE_PLANT = gql`
@@ -74,17 +64,16 @@ export const DELETE_USER = gql`
 // `;
 
 export const LOGIN = gql`
-  mutation login($email: String!, $password: String!) {
-    login(email: $email, password: $password) {
-      token
-      user {
-        _id
-        firstName
-        lastName
-        email
-      }
+mutation Mutation($email: String!, $password: String!) {
+  login(email: $email, password: $password) {
+    user {
+      _id
+      email
+      firstName
+      lastName
     }
   }
+}
 `;
 
 // export const WATER_PLANT = gql`
@@ -122,7 +111,6 @@ export const LOGIN = gql`
 //         }
 //         watered
 //       }
-      
 //     }
 //   }
 // }
