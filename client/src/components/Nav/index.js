@@ -60,7 +60,7 @@ export default function Nav() {
                 <>
                     <ul className={itemsul}>
                         <li>
-                            <Link to="/" className={items}>Home</Link>
+                            <Link to="/login" className={items}>Home</Link>
                         </li>
                         <li>
                             <button className={items} onClick={handleAboutScroll}>About</button>
