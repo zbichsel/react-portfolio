@@ -11,6 +11,7 @@ module.exports = {
       fontFamily: {
         'head': 'Cinzel Decorative, cursive',
         'nav': 'Poppins, sans-serif',
+        'scary': 'Alegreya Sans SC, sans-serif',
       }
     },
   },

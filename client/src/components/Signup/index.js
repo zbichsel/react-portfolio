@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
+import { Link } from 'react-router-dom';
 import Auth from '../../utils/auth';
 import { ADD_USER } from '../../utils/mutations';
 
-import { divWrapper1, divWrapper2, formDiv, inputDiv, h2, btnS } from './styles';
+import { divWrapper1, divWrapper2, formDiv, inputDiv, h2, btnS, h2p, h2plink } from './styles';
 
 export default function Signup(props) {
     const [formState, setFormState] = useState({ email: '', password: '' });
@@ -39,6 +40,15 @@ export default function Signup(props) {
                     <h2 className={h2}
                     >Signup
                     </h2>
+                    <p className={h2p}>
+                        Already have an account?
+                        <Link
+                            to="/login"
+                            className={h2plink}
+                        >
+                            login
+                        </Link>
+                    </p>
                     <form onSubmit={handleFormSubmit}>
                         <div className="mb-2">
                             <label
@@ -74,7 +84,7 @@ export default function Signup(props) {
                             <label
                                 htmlFor="email"
                                 className={formDiv}
-                            >Email:
+                            >Email address:
                             </label>
                             <input
                                 placeholder="michaelmyers@haddonfield.com"
@@ -92,7 +102,7 @@ export default function Signup(props) {
                             >Password:
                             </label>
                             <input
-                                placeholder="******"
+                                placeholder="••••••••"
                                 name="password"
                                 type="password"
                                 id="pwd"

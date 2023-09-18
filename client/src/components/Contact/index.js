@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { btn, divWrapper, divWrapper2, divWrapper3, divWrapper4, divWrapper6, header, header2, imgWrp, input1, input2, jacko, span, textrea } from './styles';
 import logo from '../../images/5875388.jpg';
 
@@ -40,7 +41,9 @@ export default function Contact() {
                         {/* svg could be here */}
                     </div>
                     <div className={imgWrp}>
+                        <Link to="/login">
                         <img src={logo} className={jacko} alt="jackolantern" />
+                        </Link>
                     </div>
                 </div>
                 <form onSubmit={handleSubmit}>

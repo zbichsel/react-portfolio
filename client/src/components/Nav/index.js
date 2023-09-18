@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items } from './styles';
+import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items, items2 } from './styles';
 import Auth from "../../utils/auth";
 
 
@@ -49,9 +49,16 @@ export default function Nav() {
                         <li>
                             <Link to="/resume" className={items}>Resume</Link>
                         </li>
-                        <a href="/" onClick={() => Auth.logout()}>
-                            <button type="button" class="px-4 py-2 mr-3 md:mr-0">
-                            </button></a>
+                        <a
+                            href="/"
+                            onClick={() => Auth.logout()}
+                        >
+                            <button
+                                type="button"
+                                className={items2}>
+                                    Logout
+                            </button>
+                        </a>
                     </ul>
                 </>
             );
@@ -60,7 +67,7 @@ export default function Nav() {
                 <>
                     <ul className={itemsul}>
                         <li>
-                            <Link to="/login" className={items}>Home</Link>
+                            <Link to="/" className={items}>Home</Link>
                         </li>
                         <li>
                             <button className={items} onClick={handleAboutScroll}>About</button>

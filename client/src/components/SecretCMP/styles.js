@@ -1,0 +1,1 @@
+export const heading = "text-center font-scary text-3xl mt-4 text-orange-400 uppercase mx-auto flex flex-wrap justify-center items-center";

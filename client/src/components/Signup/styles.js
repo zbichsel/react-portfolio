@@ -10,7 +10,15 @@ export const h2 = "text-center text-3xl font-bold mb-8 text-orange-400 uppercase
 
 // !===!
 
-export const formDiv = "uppercase text-sm text-orange-300 font-semibold";
+export const h2p = "text-green-300 uppercase mb-6";
+
+// !===!
+
+export const h2plink = "text-orange-400 hover:underline ml-1";
+
+// !===!
+
+export const formDiv = "uppercase text-sm text-orange-400";
 
 // !===!
 

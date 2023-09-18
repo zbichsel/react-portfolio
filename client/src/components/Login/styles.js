@@ -6,6 +6,22 @@ export const divWrapper2 = "md:w-[30rem] m-6 px-8 grid gap-8 grid-cols-1 py-12 m
 
 // !===!
 
+export const message = "text-center text-xl text-orange-400 my-2";
+
+// !===!
+
+export const hmessage = "text-center text-6xl text-orange-400 my-4";
+
+// !===!
+
+export const h2p = "uppercase text-green-300";
+
+// !===!
+
+export const h2plink = "text-orange-400 hover:underline ml-1";
+
+// !===!
+
 export const h2 = "text-center text-3xl font-bold mb-8 text-orange-400 uppercase border bg-clip-border rounded-xl shadow-md shadow-black border-gray-500 h-32 w-32 flex justify-center items-center mx-auto";
 
 // !===!
