@@ -34,7 +34,7 @@ function Login(props) {
     function showLogin() {
 
         if (Auth.loggedIn()) {
-            return <Navigate to="/secret" />
+            return <Navigate to="/" />
         } else {
             return (
                 <div className={divWrapper1}>
