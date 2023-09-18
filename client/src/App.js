@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Resume from './pages/Resume';
 import Login from "./pages/Login";
@@ -36,14 +36,14 @@ const client = new ApolloClient({
 export default function App() {
   return (
     <ApolloProvider client={client}>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/resume" element={<Resume />}></Route>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/signup" element={<Signup/>}></Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </ApolloProvider>
   );
 }
