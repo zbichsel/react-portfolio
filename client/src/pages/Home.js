@@ -6,19 +6,26 @@ import Skills from '../components/Skills';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Auth from '../utils/auth';
+import { Navigate } from 'react-router-dom';
 
 
 export default function Home() {
     console.log("If you're reading this, send me an email throught the contact form and tell me what your favorite scary movie is. 🎃🔪👻\n\nHappy Halloween!");
-    return (
-        <>
-            <Header />
-            <Nav />
-            <About />
-            <Skills />
-            <Portfolio />
-            <Contact />
-            <Footer />
-        </>
-    );
+
+    if (Auth.loggedIn()) {
+        return <Navigate to="/secret" />
+    } else {
+        return (
+            <>
+                <Header />
+                <Nav />
+                <About />
+                <Skills />
+                <Portfolio />
+                <Contact />
+                <Footer />
+            </>
+        );
+    }
 }

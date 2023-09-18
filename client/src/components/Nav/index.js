@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items, items2 } from './styles';
-import Auth from "../../utils/auth";
+import { navWrapper, divWrapper, btnDiv, btnNav, svg1, svg2, itemsdiv, itemsul, items } from './styles';
 
-
-export default function Nav() {
-
+export default function SecretNV() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const handlePortfolioScroll = () => {
@@ -28,65 +25,7 @@ export default function Nav() {
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
-
-    function showNav() {
-        if (Auth.loggedIn()) {
-            return (
-                <>
-                    <ul className={itemsul}>
-                        <li>
-                            <Link to="/" className={items}>Home</Link>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleAboutScroll}>About</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleContactScroll}>Contact</button>
-                        </li>
-                        <li>
-                            <Link to="/resume" className={items}>Resume</Link>
-                        </li>
-                        <a
-                            href="/"
-                            onClick={() => Auth.logout()}
-                        >
-                            <button
-                                type="button"
-                                className={items2}>
-                                    Logout
-                            </button>
-                        </a>
-                    </ul>
-                </>
-            );
-        } else {
-            return (
-                <>
-                    <ul className={itemsul}>
-                        <li>
-                            <Link to="/" className={items}>Home</Link>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleAboutScroll}>About</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleContactScroll}>Contact</button>
-                        </li>
-                        <li>
-                            <Link to="/resume" className={items}>Resume</Link>
-                        </li>
-                    </ul>
-                </>
-            )
-        }
-    }
-
+    
     return (
         <>
             <nav className={navWrapper}>
@@ -99,10 +38,26 @@ export default function Nav() {
                         </button>
                     </div>
                     <div className={`${itemsdiv} ${isMenuOpen ? "block" : "hidden"}`}>
-                        {showNav()}
+                        <ul className={itemsul}>
+                            <li>
+                                <Link to="/" className={items}>Home</Link>
+                            </li>
+                            <li>
+                                <button className={items} onClick={handleAboutScroll}>About</button>
+                            </li>
+                            <li>
+                                <button className={items} onClick={handlePortfolioScroll}>Portfolio</button>
+                            </li>
+                            <li>
+                                <button className={items} onClick={handleContactScroll}>Contact</button>
+                            </li>
+                            <li>
+                                <Link to="/resume" className={items}>Resume</Link>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav >
         </>
-    );
+    )
 }
