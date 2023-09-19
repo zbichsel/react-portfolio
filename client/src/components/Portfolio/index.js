@@ -11,11 +11,18 @@ import tch from '../../images/techblog.png';
 export default function Portfolio() {
 
     const cardVariant = {
-        visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-        hidden: { opacity: 0, scale: 0 }
+        visible: {
+            opacity: 1,
+            scale: 1,
+            transition: { duration: 0.5 }
+        },
+        hidden: {
+            opacity: 0,
+            scale: 0
+        }
     };
 
-    const Card = ({ num }) => {
+    const Card = () => {
 
         const control = useAnimation();
         const [ ref, inView ] = useInView();
@@ -63,7 +70,7 @@ export default function Portfolio() {
         )
     }
 
-    const Card2 = ({ num }) => {
+    const Card2 = () => {
 
         const control = useAnimation();
         const [ ref, inView ] = useInView();
@@ -111,7 +118,7 @@ export default function Portfolio() {
         )
     }
 
-    const Card3 = ({ num }) => {
+    const Card3 = () => {
 
         const control = useAnimation();
         const [ ref, inView ] = useInView();
@@ -159,7 +166,7 @@ export default function Portfolio() {
         )
     }
 
-    const Card4 = ({ num }) => {
+    const Card4 = () => {
 
         const control = useAnimation();
         const [ ref, inView ] = useInView();
@@ -212,10 +219,10 @@ export default function Portfolio() {
             className={mainWrapper}
             id="portfolio"
         >
-            <Card num={1} />
-            <Card2 num={1} />
-            <Card3 num={1} />
-            <Card4 num={1} />
+            <Card />
+            <Card2 />
+            <Card3 />
+            <Card4 />
         </div>
     );
 }
