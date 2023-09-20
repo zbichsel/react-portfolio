@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function SpotifyPlayer() {
 
     const CLIENT_ID = "af97b68e67954fc99300dd0484dc2a75";
-    const REDIRECT_URI = "http://localhost:3000/callback";
+    const REDIRECT_URI = "https://geistx-f7997d6a509e.herokuapp.com/callback";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPOSNE_TYPE = "token";
 
