@@ -8,6 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Auth from '../utils/auth';
 import { Navigate } from 'react-router-dom';
+import SpotifyPlayer from '../components/Spotify';
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <>
                 <Header />
                 <Nav />
+                <SpotifyPlayer/>
                 <About />
                 <Skills />
                 <Portfolio />
