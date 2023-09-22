@@ -1,4 +1,4 @@
-export const divWrapper = "bg-[#FAF8FB] antialiased font-nav px-1 md:px-8 py-6";
+export const divWrapper = "bg-zinc-100 antialiased font-nav px-1 md:px-8 py-6";
 
 // !===!
 
@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-xl shadow-md";
+export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-zinc-50 text-gray-900 rounded-xl shadow-md";
 
 // !===!
 
@@ -26,7 +26,7 @@ export const divWrapper6 = "mt-8 text-center";
 
 // !===!
 
-export const span = "uppercase text-sm text-[#C0A6BD] font-semibold";
+export const span = "uppercase text-sm text-purple-900 font-semibold";
 
 // !===!
 

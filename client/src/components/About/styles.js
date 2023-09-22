@@ -1,4 +1,4 @@
-export const divWrapper = "w-auto bg-[#FAF8FB] flex flex-col justify-center items-center p-12 pb-6";
+export const divWrapper = "w-auto bg-zinc-100 flex flex-col justify-center items-center p-12 pb-6";
 
 // !===!
 
@@ -18,7 +18,7 @@ export const imgCard = "relative mt-4 ml-2 mr-4 mb-2 overflow-hidden rounded-xl 
 
 // !===!
 
-export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl bg-white bg-clip-border text-gray-700 shadow-md";
+export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl bg-zinc-50 bg-clip-border text-gray-700 shadow-md";
 
 // !===!
 
