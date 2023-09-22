@@ -30,15 +30,15 @@ export const span = "uppercase text-sm text-zinc-50 font-semibold";
 
 // !===!
 
-export const input1 = "w-full bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input1 = "w-full bg-zinc-900 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
-export const textrea = "w-full h-32 bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
+export const textrea = "w-full h-32 bg-zinc-900 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
 
 // !===!
 
-export const input2 = "w-full bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input2 = "w-full bg-zinc-900 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
