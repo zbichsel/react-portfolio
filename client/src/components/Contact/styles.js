@@ -1,12 +1,12 @@
-export const divWrapper = "bg-zinc-900 antialiased font-nav px-1 md:px-8 py-6";
+export const divWrapper = "bg-zinc-900 antialiased font-nav py-6 md:py-16 mx-0.5 md:mx-[2rem] lg:mx-[5rem] xl:mx-[2rem]";
 
 // !===!
 
-export const divWrapper2 = "text-center w-full";
+export const divWrapper2 = "text-center";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border bg-[#2a1e48] border-zinc-950 text-gray-900 rounded-xl shadow-sm shadow-black";
+export const divWrapper3 = "max-w-screen-3xl md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border bg-[#2a1e48] border-zinc-950 text-gray-900 rounded-xl shadow-sm shadow-black";
 
 // !===!
 
