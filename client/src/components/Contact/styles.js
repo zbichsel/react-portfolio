@@ -1,4 +1,4 @@
-export const divWrapper = "bg-gradient-to-t from-purple-800 via-purple-800 to-purple-900 antialiased font-nav px-1 md:px-8 py-6";
+export const divWrapper = "bg-zinc-900 antialiased font-nav px-1 md:px-8 py-6";
 
 // !===!
 
@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border border-purple-800 text-gray-900 rounded-xl shadow-md";
+export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border bg-purple-950 border-zinc-700 text-gray-900 rounded-xl shadow-md shadow-black";
 
 // !===!
 
@@ -30,15 +30,15 @@ export const span = "uppercase text-sm text-zinc-50 font-semibold";
 
 // !===!
 
-export const input1 = "w-full bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input1 = "w-full bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
-export const textrea = "w-full h-32 bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
+export const textrea = "w-full h-32 bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
 
 // !===!
 
-export const input2 = "w-full bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input2 = "w-full bg-zinc-800 text-zinc-50 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
@@ -46,7 +46,7 @@ export const btn = "text-[#D242CF] uppercase hover:text-zinc-50 border border-[#
 
 // !===!
 
-export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56 bg-purple-800 border border-purple-900/50";
+export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56 bg-purple-950 border border-purple-900/50";
 
 // !===!
 

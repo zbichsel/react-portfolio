@@ -1,8 +1,8 @@
-export const mainWrapper = "bg-gradient-to-b from-purple-800 via-purple-800 to-purple-900 flex flex-wrap gap-6 justify-evenly items-center overflow-visible overflow-y-scroll";
+export const mainWrapper = "bg-zinc-900 flex flex-wrap gap-6 justify-evenly items-center overflow-visible overflow-y-scroll";
 
 // !===!
 
-export const cardWrapper = "relative flex w-96 flex-col rounded-xl border border-purple-900 bg-clip-border text-gray-700 shadow-md mb-2";
+export const cardWrapper = "relative flex w-96 flex-col rounded-xl border border-zinc-700 bg-purple-950 bg-clip-border text-gray-700 shadow-md mb-2";
 
 // !===!
 
