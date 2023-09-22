@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen-xl  px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-xl shadow-md";
+export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-xl shadow-md";
 
 // !===!
 
@@ -30,15 +30,15 @@ export const span = "uppercase text-sm text-[#C0A6BD] font-semibold";
 
 // !===!
 
-export const input1 = "w-full bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input1 = "w-full bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
-export const textrea = "w-full h-32 bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
+export const textrea = "w-full h-32 bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ";
 
 // !===!
 
-export const input2 = "w-full bg-[#C0A6BD] text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
+export const input2 = "w-full bg-purple-900 text-gray-900 placeholder-zinc-50 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline";
 
 // !===!
 
@@ -50,4 +50,4 @@ export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justif
 
 // !===!
 
-export const jacko = "w-48 rounded-lg shadow-lg";
+export const jacko = "w-48 rounded-lg shadow-lg cursor-default";
