@@ -1,4 +1,4 @@
-export const divWrapper = "grid md:grid-cols-3 grid-rows-1 sm:grid-cols-1 bg-gradient-to-b from-zinc-950 to-purple-950 p-4";
+export const divWrapper = "grid md:grid-cols-3 grid-rows-1 sm:grid-cols-1 bg-gradient-to-b from-zinc-950 via-[#2a1e48] to-[#2a1e48] p-4";
 
 // !===!
 

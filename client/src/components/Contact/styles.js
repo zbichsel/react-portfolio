@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border bg-purple-950 border-zinc-700 text-gray-900 rounded-xl shadow-md shadow-black";
+export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border bg-[#2a1e48] border-zinc-950 text-gray-900 rounded-xl shadow-sm shadow-black";
 
 // !===!
 
@@ -46,7 +46,7 @@ export const btn = "text-[#D242CF] uppercase hover:text-zinc-50 border border-[#
 
 // !===!
 
-export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56 bg-purple-950 border border-purple-900/50";
+export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56 bg-[#2a1e48] border border-zinc-900/50";
 
 // !===!
 

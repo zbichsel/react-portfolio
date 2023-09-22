@@ -14,11 +14,11 @@ export const imgDimens = "m-1 p-1";
 
 // !===!
 
-export const imgCard = "relative mt-4 ml-2 mr-4 mb-2 overflow-hidden rounded-xl bg-clip-border text-gray-700 shadow-lg md:hidden";
+export const imgCard = "relative mt-4 m-4 overflow-hidden rounded-xl bg-clip-border text-gray-700 shadow-lg md:hidden";
 
 // !===!
 
-export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl border border-zinc-700 bg-purple-950 bg-clip-border text-gray-700 shadow-md";
+export const cardWrapper = "relative mb-12 flex flex-col justify-center items-center rounded-xl border border-zinc-950 bg-[#2a1e48] bg-clip-border text-gray-700 shadow-md";
 
 // !===!
 

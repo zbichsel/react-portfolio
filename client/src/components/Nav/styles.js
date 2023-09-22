@@ -1,4 +1,4 @@
-export const navWrapper = "bg-purple-950 m-0 relative";
+export const navWrapper = "bg-[#2a1e48] m-0 relative";
 
 // !===!
 
@@ -26,7 +26,7 @@ export const itemsdiv = "block flex justify-center items-center w-full md:block 
 
 // !===!
 
-export const itemsul = "font-medium flex flex-col p-4 w-full items-center justify-center divide-y md:divide-none md:p-0 mt-4 border border-zinc-50 rounded-lg bg-purple-950 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-purple-950";
+export const itemsul = "font-medium flex flex-col p-4 w-full items-center justify-center divide-y md:divide-none md:p-0 mt-4 border border-zinc-50 rounded-lg bg-[#2a1e48] md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#2a1e48]";
 
 // !===!
 
