@@ -1,4 +1,4 @@
-export const divWrapper = "w-auto flex flex-col justify-center items-center p-12 pt-6";
+export const divWrapper = "w-auto flex flex-col justify-center items-center p-12 pt-6 bg-purple-800";
 
 // !===!
 

@@ -1,4 +1,4 @@
-export const divWrapper = "bg-zinc-100 antialiased font-nav px-1 md:px-8 py-6";
+export const divWrapper = "bg-gradient-to-t from-purple-800 via-purple-800 to-purple-900 antialiased font-nav px-1 md:px-8 py-6";
 
 // !===!
 
@@ -6,7 +6,7 @@ export const divWrapper2 = "text-center w-full";
 
 // !===!
 
-export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-zinc-50 text-gray-900 rounded-xl shadow-md";
+export const divWrapper3 = "max-w-screen md:mx-8 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto border border-purple-800 text-gray-900 rounded-xl shadow-md";
 
 // !===!
 
@@ -14,11 +14,11 @@ export const divWrapper4 = "flex flex-col justify-between";
 
 // !===!
 
-export const header = "text-4xl lg:text-5xl text-center md:text-left font-bold leading-tight";
+export const header = "text-4xl lg:text-5xl text-center md:text-left font-bold leading-tight text-zinc-50";
 
 // !===!
 
-export const header2 = "mt-2 text-xl lg:text-5xl text-center md:text-left leading-tight";
+export const header2 = "mt-2 text-xl lg:text-5xl text-center md:text-left leading-tight text-zinc-50";
 
 // !===!
 
@@ -26,7 +26,7 @@ export const divWrapper6 = "mt-8 text-center";
 
 // !===!
 
-export const span = "uppercase text-sm text-purple-900 font-semibold";
+export const span = "uppercase text-sm text-zinc-50 font-semibold";
 
 // !===!
 
@@ -46,7 +46,7 @@ export const btn = "text-[#D242CF] uppercase hover:text-zinc-50 border border-[#
 
 // !===!
 
-export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56";
+export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justify-center items-center shadow-md h-56 w-56 bg-purple-800 border border-purple-900/50";
 
 // !===!
 

@@ -1,8 +1,8 @@
-export const divWrap = "font-nav antialiased relative mt-16 bg-gradient-to-b from-purple-900 via-purple-900 to-purple-800";
+export const divWrap = "font-nav antialiased relative mt-16 bg-gradient-to-t from-purple-700 via-purple-900 to-purple-900";
 
 // !===!
 
-export const svg1 = "absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-purple-900";
+export const svg1 = "absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-purple-900 bg-purple-800";
 
 // !===!
 
