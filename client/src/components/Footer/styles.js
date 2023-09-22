@@ -2,7 +2,7 @@ export const divWrap = "font-nav antialiased relative mt-16 bg-gradient-to-b fro
 
 // !===!
 
-export const svg1 = "absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-[#2a1e48] bg-zinc-900";
+export const svg1 = "absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-zinc-900 bg-zinc-900";
 
 // !===!
 
