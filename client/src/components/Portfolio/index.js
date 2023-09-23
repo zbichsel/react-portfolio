@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 import { mainWrapper, cardWrapper, imgWrapper, cardTextWrp, cardText, cardP, btnWrapper, btns } from './styles';
 import imps from '../../images/ParkSafe.png'
 import bookify from '../../images/bookify.png';
-import gth from '../../images/gth.png';
+import gth from '../../images/greenthmb.png';
 import tch from '../../images/techblog.png';
 
 export default function Portfolio() {
@@ -142,7 +142,7 @@ export default function Portfolio() {
                 <div className={cardWrapper}>
                     <div className={imgWrapper}>
                         <a href="https://gentle-fortress-84585-60555956fddc.herokuapp.com/">
-                            <img src={gth} alt="GreenThumb Hub Banner" />
+                            <img src={gth} alt="GreenThumb Hub Banner" style={{ height: '100%', backgroundPosition: 'center', backgroundSize: 'cover' }} />
                         </a>
                     </div>
                     <div className={cardTextWrp}>
