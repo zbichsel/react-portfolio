@@ -11,7 +11,7 @@ import { Navigate } from 'react-router-dom';
 
 
 export default function Home() {
-    console.log("If you're reading this, send me an email throught the contact form and tell me what your favorite scary movie is. 🎃🔪👻\n\nHappy Halloween!");
+    console.log("If you're reading this, find the secret button, create an account, play my quiz and listen to a spooky song. 🎃🔪👻\n\nHappy Halloween!");
 
     if (Auth.loggedIn()) {
         return <Navigate to="/secret" />
