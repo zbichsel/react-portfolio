@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useEffect } from 'react';
 import { mainWrapper, cardWrapper, imgWrapper, cardTextWrp, cardText, cardP, btnWrapper, btns } from './styles';
-import imps from '../../images/ps.png'
+import imps from '../../images/ParkSafe.png'
 import bookify from '../../images/bookify.png';
 import gth from '../../images/gth.png';
 import tch from '../../images/techblog.png';
@@ -46,7 +46,7 @@ export default function Portfolio() {
                 <div className={cardWrapper}>
                     <div className={imgWrapper}>
                         <a href="https://liq543.github.io/Park-Safe/">
-                            <img src={imps} alt="Park Safe Banner" />
+                            <img src={imps} alt="Park Safe Banner" style={{ height: '100%', backgroundPosition: 'center', backgroundSize: 'cover'}} />
                         </a>
                     </div>
                     <div className={cardTextWrp}>
@@ -94,7 +94,7 @@ export default function Portfolio() {
                 <div className={cardWrapper}>
                     <div className={imgWrapper}>
                         <a href="https://bookify-1-c0d5b3199b9a.herokuapp.com/">
-                            <img src={bookify} alt="Bookify Banner" />
+                            <img src={bookify} alt="Bookify Banner" style={{ height: '100%', backgroundPosition: 'center', backgroundSize: 'cover' }} />
                         </a>
                     </div>
                     <div className={cardTextWrp}>
