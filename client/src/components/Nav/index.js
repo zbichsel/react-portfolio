@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { navWrapper, divWrapper, btnDiv, btnNav, svg1, svg2, itemsdiv, itemsul, items } from './styles';
+import { navWrapper, divWrapper, btnDiv, btnNav, svg1, itemsdiv, itemsul, items } from './styles';
 
 export default function SecretNV() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,9 +50,6 @@ export default function SecretNV() {
                             </li>
                             <li>
                                 <button className={items} onClick={handleContactScroll}>Contact</button>
-                            </li>
-                            <li>
-                                <Link to="/resume" className={items}>Resume</Link>
                             </li>
                         </ul>
                     </div>

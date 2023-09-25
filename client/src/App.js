@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Resume from './pages/Resume';
 import Login from "./pages/Login";
 import Signup from "./pages/CreateAccount";
 import SecretPage from "./pages/SecretPage";
@@ -40,7 +39,6 @@ export default function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/resume" element={<Resume />}></Route>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/signup" element={<Signup/>}></Route>
           <Route path="/secret" element={<SecretPage/>}></Route>

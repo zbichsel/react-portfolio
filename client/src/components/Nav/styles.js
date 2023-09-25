@@ -18,10 +18,6 @@ export const svg1 = "fill-white text-zinc-50 h-10 w-10 border border-zinc-50 p-1
 
 // !===!
 
-export const svg2 = "fill-current text-zinc-50 h-10 w-10 border border-zinc-50 p-1 rounded-md ";
-
-// !===!
-
 export const itemsdiv = "block flex justify-center items-center w-full md:block md:w-auto";
 
 // !===!
@@ -30,8 +26,6 @@ export const itemsul = "font-medium flex flex-col p-4 w-full items-center justif
 
 // !===!
 
-export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-zinc-50 antialiased font-semibold rounded hover:bg-purple-800 md:hover:bg-transparent md:border-0 md:hover:text-pink-400 md:p-0";
+export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-zinc-50 antialiased font-semibold rounded hover:underline hover:bg-purple-800 md:hover:bg-transparent md:border-0 md:hover:text-pink-400 md:p-0";
 
 // !===!
-
-export const items2 = "block py-2 pl-3 pr-4 my-2 md:my-0 font-nav text-center w-80 md:w-[4.5rem] text-orange-300 rounded-full antialiased font-semibold rounded hover:text-purple-800 md:border bg-purple-800 md:p-0 hover:bg-green-400 border-green-300 border shadow-md shadow-black focus:ring-purple-800 focus:outline-none focus:ring-4 ";

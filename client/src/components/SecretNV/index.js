@@ -34,18 +34,6 @@ export default function Nav() {
             return (
                 <>
                     <ul className={itemsul}>
-                        <li>
-                            <Link to="/" className={items}>Home</Link>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleAboutScroll}>🎃</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handlePortfolioScroll}>👻</button>
-                        </li>
-                        <li>
-                            <button className={items} onClick={handleContactScroll}>👹</button>
-                        </li>
                         <a
                             href="/"
                             onClick={() => Auth.logout()}
@@ -53,7 +41,7 @@ export default function Nav() {
                             <button
                                 type="button"
                                 className={items2}>
-                                    Logout
+                                Logout
                             </button>
                         </a>
                     </ul>

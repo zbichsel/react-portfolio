@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sound from 'react-sound';
-import HKtheme from '../../sounds/hktheme.mp3';
+import HKtheme from '../../sounds/Proc.wav';
 import { btnS } from './style';
 
 export default function PlaySound() {

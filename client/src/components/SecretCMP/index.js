@@ -1,44 +1,25 @@
 import React from 'react';
-import { divWrapper, gridItem, gridItem2, gridItem3, gridItem4, gridItem5, gridItem6 } from './styles';
+import { divWrapper, gridItem, gridItem2 } from './styles';
 import PlaySound from '../Sound';
+import coverart from '../../images/Hends.jpg';
 
 export default function SecretComp() {
     return (
-        <div className='bg-orange-400 p-2'>
-        <div
-            className={divWrapper}
-        >
+        <div className='bg-zinc-900 p-2'>
             <div
-                className={gridItem}
+                className={divWrapper}
             >
-                {PlaySound()}
+                <div
+                    className={gridItem}
+                >
+                    {PlaySound()}
+                </div>
+                <div
+                    className={gridItem2}
+                >
+                    <img src={coverart} className="rounded-md" style={{ height: '10rem' }} alt="Halloween Ends soundtrack cover art" />
+                </div>
             </div>
-            <div
-                className={gridItem2}
-            >
-                Scary 2
-            </div>
-            <div
-                className={gridItem3}
-            >
-                Scary 3
-            </div>
-            <div
-                className={gridItem4}
-            >
-                Scary 4
-            </div>
-            <div
-                className={gridItem5}
-            >
-                Scary 5
-            </div>
-            <div
-                className={gridItem6}
-            >
-                Scary 6
-            </div>
-        </div>
         </div>
     )
 }

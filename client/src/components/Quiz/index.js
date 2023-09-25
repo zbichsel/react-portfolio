@@ -47,7 +47,7 @@ const Quiz = () => {
     const addLeadingZero = (number) => (number > 9 ? number : `0${number}`)
 
     return (
-        <div className='bg-orange-400 p-2'>
+        <div className='bg-zinc-900 p-2'>
         <div className={divWrapper}>
             {!showResult ? (
                 <div>

@@ -18,8 +18,8 @@ export const quizWrap = "flex flex-col justify-center items-center mx-auto";
 
 // !===!
 
-export const btn1 = "focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-2 focus:ring-purple-300 font-medium rounded-md text-sm px-5 py-2.5 mb-2 w-full";
+export const btn1 = "focus:outline-none text-white hover:bg-purple-800 focus:ring-2 focus:ring-purple-300 focus:bg-purple-700 font-medium rounded-md text-sm px-5 py-2.5 mb-2 w-full";
 
 // !===!
 
-export const btn2 = "border border-white px-2 py-px rounded-md bg-orange-400 shadow-sm shadow-black hover:bg-orange-300 cursor-pointer w-full mt-2";
+export const btn2 = "border border-white rounded-md bg-orange-400 shadow-sm shadow-black hover:bg-orange-300 cursor-pointer w-full mt-2 px-5 py-2.5";
