@@ -12,6 +12,7 @@ module.exports = {
         'head': 'Cinzel Decorative, cursive',
         'nav': 'Poppins, sans-serif',
         'scary': 'Alegreya Sans SC, sans-serif',
+        'clock': 'Orbitron, sans-serif',
       }
     },
   },
