@@ -40,10 +40,10 @@ function Login(props) {
                 <div className={divWrapper1}>
                     <h1 className={hmessage}
                     >
-                        Happy Halloween
+                        Happy Valentine's Day!
                     </h1>
                     <p className={message}>
-                        It appears you've found the secret 🎃
+                        It appears you've found the secret 💘
                     </p>
                     <div className={divWrapper2}>
                         <h2 className={h2}>Login</h2>
@@ -65,7 +65,7 @@ function Login(props) {
                                 </label>
                                 <input
                                     className={inputDiv}
-                                    placeholder="michaelmyers@haddonfield.com"
+                                    placeholder="jm@cherub.com"
                                     name="email"
                                     type="email"
                                     id="email"
