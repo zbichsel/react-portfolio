@@ -1,4 +1,4 @@
-export const navWrapper = "bg-purple-800 relative";
+export const navWrapper = "bg-red-800 relative";
 
 // !===!
 
@@ -26,12 +26,12 @@ export const itemsdiv = "block flex justify-center items-center w-full md:block 
 
 // !===!
 
-export const itemsul = "font-medium flex flex-col p-4 w-full items-center justify-center divide-y md:divide-none md:p-0 mt-4 border border-zinc-50 rounded-lg bg-purple-800 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-purple-800";
+export const itemsul = "font-medium flex flex-col p-4 w-full items-center justify-center divide-y md:divide-none md:p-0 mt-4 border border-zinc-50 rounded-lg bg-red-800 md:flex-row md:space-x-8 md:mt-0 md:border-0";
 
 // !===!
 
-export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-orange-400 antialiased font-semibold rounded hover:bg-green-300 md:hover:bg-transparent md:border-0 md:hover:text-purple-300 md:p-0";
+export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-orange-400 antialiased font-semibold rounded hover:bg-green-300 md:hover:bg-transparent md:border-0 md:p-0";
 
 // !===!
 
-export const items2 = "block py-2 pl-3 pr-4 my-2 md:my-0 font-nav text-center w-80 md:w-[4.5rem] text-orange-300 rounded-full antialiased font-semibold rounded hover:text-purple-800 md:border bg-purple-800 md:p-0 hover:bg-green-400 border-green-300 border shadow-md shadow-black focus:ring-purple-800 focus:outline-none focus:ring-4 ";
+export const items2 = "block py-2 pl-3 pr-4 my-2 md:my-0 font-nav text-center w-80 md:w-[4.5rem] text-zinc-50 rounded-full antialiased font-semibold rounded hover:text-black md:border bg-red-600 md:p-0 hover:bg-red-800 border-pink-300 border shadow-md shadow-black focus:ring-pink-300 focus:outline-none focus:ring-4 ";

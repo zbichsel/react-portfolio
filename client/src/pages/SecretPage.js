@@ -12,7 +12,7 @@ export default function SecretPage() {
         return <Navigate to="/" />
     } else {
         return (
-            <div className='h-fit bg-orange-400'>
+            <div className='h-fit'>
                 <SecretHP />
                 <SecretNV />
                 <SecretComp />

@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../images/halloween-23439.svg';
+import pic from '../../images/valentine.jpeg';
 import { divWrapper, divImg, divH1 } from './styles';
 import { motion } from 'framer-motion';
 
@@ -27,7 +27,7 @@ export default function SecretHP() {
                 <h1
                     className={divH1}
                 >
-                    Halloween
+                    It's always someone you know!
                 </h1>
             </motion.div>
         );
