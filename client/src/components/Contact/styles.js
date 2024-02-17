@@ -50,4 +50,4 @@ export const imgWrp = "mx-auto md:m-0 pt-2 pl-1 pb-1 pr-0 rounded-lg flex justif
 
 // !===!
 
-export const jacko = "w-48 rounded-lg shadow-lg cursor-default";
+export const lepre = "w-48 rounded-lg shadow-lg cursor-default";

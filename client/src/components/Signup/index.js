@@ -57,7 +57,7 @@ export default function Signup(props) {
                             >First Name:
                             </label>
                             <input
-                                placeholder="Jeremy"
+                                placeholder="Lubdan"
                                 name="firstName"
                                 type="firstName"
                                 id="firstName"
@@ -72,7 +72,7 @@ export default function Signup(props) {
                             >Last Name:
                             </label>
                             <input
-                                placeholder="Melton"
+                                placeholder="Leprechaun"
                                 name="lastName"
                                 type="lastName"
                                 id="lastName"
@@ -87,7 +87,7 @@ export default function Signup(props) {
                             >Email address:
                             </label>
                             <input
-                                placeholder="jm@cherub.com"
+                                placeholder="lubdan@leprechaun.com"
                                 name="email"
                                 type="email"
                                 id="email"
@@ -113,7 +113,7 @@ export default function Signup(props) {
                         <div className={btnS}>
                             <button
                                 type="submit"
-                            >SUBMIT
+                            >Signup
                             </button>
                         </div>
                     </form>

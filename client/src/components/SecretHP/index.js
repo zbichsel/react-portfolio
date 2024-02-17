@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../images/valentine.jpeg';
+import pic from '../../images/leprechaun.jpeg';
 import { divWrapper, divImg, divH1 } from './styles';
 import { motion } from 'framer-motion';
 
