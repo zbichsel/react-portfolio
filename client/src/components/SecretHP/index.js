@@ -27,7 +27,7 @@ export default function SecretHP() {
                 <h1
                     className={divH1}
                 >
-                    It's always someone you know!
+                    Stay away from my gold ☘️
                 </h1>
             </motion.div>
         );

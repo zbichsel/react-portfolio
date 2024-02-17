@@ -5,7 +5,7 @@ import coverart from '../../images/Hends.jpg';
 
 export default function SecretComp() {
     return (
-        <div className='bg-zinc-900 p-2'>
+        <div className='bg-zinc-950 p-2'>
             <div
                 className={divWrapper}
             >
