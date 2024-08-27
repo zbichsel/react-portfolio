@@ -57,7 +57,7 @@ export default function Signup(props) {
                             >First Name:
                             </label>
                             <input
-                                placeholder="Lubdan"
+                                placeholder="Katrina"
                                 name="firstName"
                                 type="firstName"
                                 id="firstName"
@@ -72,7 +72,7 @@ export default function Signup(props) {
                             >Last Name:
                             </label>
                             <input
-                                placeholder="Leprechaun"
+                                placeholder="Cornwell"
                                 name="lastName"
                                 type="lastName"
                                 id="lastName"
@@ -87,7 +87,7 @@ export default function Signup(props) {
                             >Email address:
                             </label>
                             <input
-                                placeholder="lubdan@leprechaun.com"
+                                placeholder="adm.cornwell@starfleet.com"
                                 name="email"
                                 type="email"
                                 id="email"

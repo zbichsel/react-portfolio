@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../images/leprechaun.jpeg';
+import pic from '../../images/sfacademy.jpeg';
 import { divWrapper, divImg, divH1 } from './styles';
 import { motion } from 'framer-motion';
 
@@ -27,7 +27,7 @@ export default function SecretHP() {
                 <h1
                     className={divH1}
                 >
-                    Stay away from my gold ☘️
+                    Welcome to Starfleet Academy
                 </h1>
             </motion.div>
         );

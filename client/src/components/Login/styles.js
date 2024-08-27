@@ -14,7 +14,7 @@ export const h2p = "uppercase text-zinc-950 mb-6";
 
 // !===!
 
-export const h2plink = "text-[#4cd017]/75 hover:underline ml-1 underline";
+export const h2plink = "text-blue-400 hover:underline ml-1 underline";
 
 // !===!
 
@@ -30,4 +30,4 @@ export const inputDiv = "w-full bg-zinc-100 text-black placeholder-black mt-2 p-
 
 // !===!
 
-export const btnS = "text-zinc-950 hover:text-[#ffd700] border border-[#ffd700] bg-zinc-50 hover:bg-[#4cd017] focus:ring-4 focus:outline-none focus:ring-purple-800 font-medium leading-snug rounded-md text-md px-5 py-2.5 text-center mx-auto mt-6 w-32 shadow-zinc-950/50 shadow-sm";
+export const btnS = "text-zinc-950 hover:text-[#ffd700] border border-blue-400 bg-zinc-50 hover:bg-[#4cd017] focus:ring-4 focus:outline-none focus:ring-purple-800 font-medium leading-snug rounded-md text-md px-5 py-2.5 text-center mx-auto mt-6 w-32 shadow-zinc-950/50 shadow-sm";

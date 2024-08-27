@@ -15,7 +15,7 @@ export default function PlaySound() {
                 playStatus={
                     isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED
                 }
-                volume={20}
+                volume={100}
                 autoLoad={true}
             />
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { divWrapper, gridItem, gridItem2 } from './styles';
 import PlaySound from '../Sound';
-import coverart from '../../images/Hends.jpg';
+import coverart from '../../images/Discovery.jpeg';
 
 export default function SecretComp() {
     return (

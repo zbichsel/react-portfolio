@@ -42,7 +42,7 @@ function Login(props) {
                         <div>
                         <h1 className={hmessage}
                         >
-                            Happy St. Patrick's Day! ☘️
+                            Welcome to Starfleet Academy
                         </h1>
                             <h2 className={h2}>Login</h2>
                             <p className={h2p}>
@@ -63,7 +63,7 @@ function Login(props) {
                                     </label>
                                     <input
                                         className={inputDiv}
-                                        placeholder="lubdan@leprechaun.com"
+                                        placeholder="adm.cornwell@starfleet.com"
                                         name="email"
                                         type="email"
                                         id="email"
