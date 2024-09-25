@@ -1,18 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.dba536bf.css",
-    "main.js": "/static/js/main.3faf29d1.js",
+    "main.js": "/static/js/main.5b8da0f3.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/The Junk Yard.wav": "/static/media/The Junk Yard.18e2007284235986330a.wav",
-    "static/media/The Flight.wav": "/static/media/The Flight.a0a8f23805bb1f8accd3.wav",
-    "static/media/Lauries Theme Ends.wav": "/static/media/Lauries Theme Ends.aee910d441b337799c8d.wav",
     "static/media/The Procession.wav": "/static/media/The Procession.d4b78b05377eb7f8f36e.wav",
-    "static/media/Where is Jeremy.wav": "/static/media/Where is Jeremy.1d6aff950ca0a0a8a0ca.wav",
     "static/media/Evil Eyes.wav": "/static/media/Evil Eyes.bbf94a80eab8f7fe5a4b.wav",
     "static/media/Transformation.wav": "/static/media/Transformation.32db34572c3b0ed5488d.wav",
     "static/media/Halloween Ends Main Title.wav": "/static/media/Halloween Ends Main Title.cd7c0624beb50f35f566.wav",
     "static/media/Corey and Michael.wav": "/static/media/Corey and Michael.fbbca86286c8a2e49ca1.wav",
-    "static/media/Before Her Eyes.wav": "/static/media/Before Her Eyes.7ce9126b356b5d870d20.wav",
     "static/media/Bye Bye Corey.wav": "/static/media/Bye Bye Corey.10ea16d924cbb6bcc296.wav",
     "static/media/greenthmb.png": "/static/media/greenthmb.8a05117ca69585e8360d.png",
     "static/media/bookify.png": "/static/media/bookify.a48a0c9e0831872b515b.png",
@@ -25,11 +21,11 @@
     "static/media/other.svg": "/static/media/other.3e3e839804cf4de11dae8665ae0631ef.svg",
     "index.html": "/index.html",
     "main.dba536bf.css.map": "/static/css/main.dba536bf.css.map",
-    "main.3faf29d1.js.map": "/static/js/main.3faf29d1.js.map",
+    "main.5b8da0f3.js.map": "/static/js/main.5b8da0f3.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dba536bf.css",
-    "static/js/main.3faf29d1.js"
+    "static/js/main.5b8da0f3.js"
   ]
 }
