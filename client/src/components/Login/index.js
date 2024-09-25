@@ -3,7 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 import Auth from '../../utils/auth';
 import { LOGIN } from '../../utils/mutations';
-import { btnS, divWrapper1, divWrapper2, formDiv, h2, h2p, h2plink, hmessage, inputDiv } from './styles';
+import { btnS, divWrapper1, divWrapper2, formDiv, h2p, h2plink, hmessage, inputDiv } from './styles';
 import logo from '../../images/logo.png';
 
 function Login(props) {

@@ -38,7 +38,7 @@ export default function Signup(props) {
             <div className={divWrapper2}
             >
                 <div>
-                    <img src={logo} className='h-24 w-24 mx-auto' />
+                    <img src={logo} alt="logo" className='h-24 w-24 mx-auto' />
                     <p className={h2p}>
                         Already have an account?
                         <Link
