@@ -1,4 +1,4 @@
-export const div1 = "p-3 space-y-2 w-60 dark:bg-gray-50 dark:text-gray-800 absolute h-svh overflow-y-auto xs:hidden xl:block";
+export const div1 = "p-3 space-y-2 w-60 dark:bg-gray-50 dark:text-gray-800 absolute h-svh overflow-y-auto";
 
 // !===!
 
