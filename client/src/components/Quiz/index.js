@@ -47,50 +47,50 @@ const Quiz = () => {
     const addLeadingZero = (number) => (number > 9 ? number : `0${number}`)
 
     return (
-        <div className='bg-zinc-950 p-2'>
-        <div className={divWrapper}>
-            {!showResult ? (
-                <div>
+        <div className='static text-zinc-900 w-full grid justify-center items-center h-svh'>
+            <div className={divWrapper}>
+                {!showResult ? (
                     <div>
                         <h2 className={`${head} mb-4`}>Scary Movie Quiz</h2>
-                        <span className={`active-question-no ${span1}`}>{addLeadingZero(activeQuestion + 1)}</span>
-                        <span className={`total-question ${span1}`}>/{addLeadingZero(questions.length)}</span>
-                    </div>
-                    <h2 className={head2}>{question}</h2>
-                    <div className={quizWrap}>
-                        {choices.map((answer, index) => (
-                            <button
-                                onClick={() => onAnswerSelected(answer, index)}
-                                key={answer}
-                                className={`${selectedAnswer === index ? 'selected-answer' : null} ${btn1}`}>
-                                {answer}
+                        <div className='flex items-center justify-center'>
+                            <span className={`active-question-no ${span1}`}>{addLeadingZero(activeQuestion + 1)}</span>
+                            <span className={`total-question ${span1}`}>/{addLeadingZero(questions.length)}</span>
+                        </div>
+                        <h2 className={head2}>{question}</h2>
+                        <div className={quizWrap}>
+                            {choices.map((answer, index) => (
+                                <button
+                                    onClick={() => onAnswerSelected(answer, index)}
+                                    key={answer}
+                                    className={`${selectedAnswer === index ? 'selected-answer' : null} ${btn1}`}>
+                                    {answer}
+                                </button>
+                            ))}
+                        </div>
+                        <div className='grid grid-cols-1 justify-center items-center p-4'>
+                            <button className={btn2} onClick={onClickNext} disabled={selectedAnswerIndex === null}>
+                                {activeQuestion === questions.length - 1 ? 'Finish' : 'Next'}
                             </button>
-                        ))}
+                        </div>
                     </div>
-                    <div>
-                        <button className={btn2} onClick={onClickNext} disabled={selectedAnswerIndex === null}>
-                            {activeQuestion === questions.length - 1 ? 'Finish' : 'Next'}
-                        </button>
+                ) : (
+                    <div className='result container'>
+                        <h3 className={head}>Results</h3>
+                        <p className={btn1}>
+                            Total Question: <span>{questions.length}</span>
+                        </p>
+                        <p className={btn1}>
+                            Total Score: <span>{result.score}</span>
+                        </p>
+                        <p className={btn1}>
+                            Correct Answers: <span>{result.correctAnswers}</span>
+                        </p>
+                        <p className={btn1}>
+                            Wrong Answers: <span>{result.wrongAnswers}</span>
+                        </p>
                     </div>
-                </div>
-            ) : (
-                <div className='result container'>
-                    <h3 className={head}>Results</h3>
-                    <p className={btn1}>
-                        Total Question: <span>{questions.length}</span>
-                    </p>
-                    <p className={btn1}>
-                        Total Score: <span>{result.score}</span>
-                    </p>
-                    <p className={btn1}>
-                        Correct Answers: <span>{result.correctAnswers}</span>
-                    </p>
-                    <p className={btn1}>
-                        Wrong Answers: <span>{result.wrongAnswers}</span>
-                    </p>
-                </div>
-            )}
-        </div>
+                )}
+            </div>
         </div>
     )
 }

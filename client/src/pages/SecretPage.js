@@ -1,20 +1,18 @@
 import React from 'react';
-import SecretHP from '../components/SecretHP';
-import SecretNV from '../components/SecretNV';
-import SecretComp from '../components/SecretCMP';
-import Quiz from '../components/Quiz';
-// import SpotifyPlayer from '../components/Spotify';
-import Auth from '../utils/auth';
 import { Navigate } from 'react-router-dom';
+import Auth from '../utils/auth';
+import SecretComp from '../components/SecretCMP';
+import SecretHP from '../components/SecretHP';
+import Quiz from '../components/Quiz';
+// import SpotifyPlayer from '../components/Spotify'; tbd
 
 export default function SecretPage() {
     if (!Auth.loggedIn()){
         return <Navigate to="/" />
     } else {
         return (
-            <div className='h-fit'>
-                <SecretHP />
-                <SecretNV />
+            <div className=''>
+                {/*<SecretHP />*/}
                 <SecretComp />
                 <Quiz />
             </div>
