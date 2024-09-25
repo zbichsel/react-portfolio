@@ -2,7 +2,7 @@ export const mainWrapper = "bg-zinc-900 flex flex-wrap gap-6 justify-evenly item
 
 // !===!
 
-export const cardWrapper = "relative flex w-96 flex-col rounded-xl border border-zinc-950 bg-[#2a1e48] bg-clip-border text-gray-700 shadow-md shadow-zinc-800/50 mb-2";
+export const cardWrapper = "relative flex xs:max-w-screen-xs md:w-96 flex-col rounded-xl border border-zinc-950 bg-[#2a1e48] bg-clip-border text-gray-700 shadow-md shadow-zinc-800/50 mb-2";
 
 // !===!
 

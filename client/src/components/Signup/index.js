@@ -3,8 +3,9 @@ import { useMutation } from '@apollo/client';
 import { Link } from 'react-router-dom';
 import Auth from '../../utils/auth';
 import { ADD_USER } from '../../utils/mutations';
+import logo from '../../images/logo.png';
 
-import { divWrapper1, divWrapper2, formDiv, inputDiv, h2, btnS, h2p, h2plink } from './styles';
+import { divWrapper1, divWrapper2, formDiv, inputDiv, btnS, h2p, h2plink } from './styles';
 
 export default function Signup(props) {
     const [formState, setFormState] = useState({ email: '', password: '' });
@@ -37,9 +38,7 @@ export default function Signup(props) {
             <div className={divWrapper2}
             >
                 <div>
-                    <h2 className={h2}
-                    >Signup
-                    </h2>
+                    <img src={logo} className='h-24 w-24 mx-auto' />
                     <p className={h2p}>
                         Already have an account?
                         <Link
@@ -57,7 +56,7 @@ export default function Signup(props) {
                             >First Name:
                             </label>
                             <input
-                                placeholder="Katrina"
+                                placeholder="Samuel"
                                 name="firstName"
                                 type="firstName"
                                 id="firstName"
@@ -72,7 +71,7 @@ export default function Signup(props) {
                             >Last Name:
                             </label>
                             <input
-                                placeholder="Cornwell"
+                                placeholder="Loomis"
                                 name="lastName"
                                 type="lastName"
                                 id="lastName"
@@ -87,7 +86,7 @@ export default function Signup(props) {
                             >Email address:
                             </label>
                             <input
-                                placeholder="adm.cornwell@starfleet.com"
+                                placeholder="loomis.sam@gmail.com"
                                 name="email"
                                 type="email"
                                 id="email"

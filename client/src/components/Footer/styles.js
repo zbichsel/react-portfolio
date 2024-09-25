@@ -6,7 +6,7 @@ export const svg1 = "absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-zinc
 
 // !===!
 
-export const div2 = "px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8";
+export const div2 = " pt-12 mx-auto xs:px-4 md:px-12";
 
 // !===!
 
@@ -14,7 +14,7 @@ export const div3 = "grid gap-16 row-gap-10 mb-8 lg:grid-cols-6";
 
 // !===!
 
-export const div4 = "md:max-w-md lg:col-span-2";
+export const div4 = "md:max-w-md md:col-span-6";
 
 // !===!
 
@@ -30,7 +30,7 @@ export const span1 = "ml-2 text-xl font-bold tracking-wide text-zinc-50 uppercas
 
 // !===!
 
-export const div5 = "mt-4 lg:max-w-sm";
+export const div5 = "mt-4";
 
 // !===!
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { btn, divWrapper, divWrapper2, divWrapper3, divWrapper4, divWrapper6, header, header2, imgWrp, input1, input2, lepre, span, textrea } from './styles';
-import logo from '../../images/Discovery.jpeg';
+import logo from '../../images/mmyers.jpg';
 
 export default function Contact() {
 
@@ -34,14 +34,14 @@ export default function Contact() {
             <div className={divWrapper3}>
                 <div className={divWrapper4}>
                     <div>
-                        <h2 className={header}>Attn: Black Alert!</h2>
+                        <h2 className={header}>Happy Halloween! 🎃</h2>
                         <h4 className={header2}>Send me all of your questions in this simple form.</h4>
                     </div>
                     <div className={divWrapper6}>
                         {/* svg could be here */}
                     </div>
                     <div className={imgWrp}>
-                        <Link to="/login">
+                        <Link to="/signup">
                         <img src={logo} className={lepre} alt="space craft" />
                         </Link>
                     </div>
@@ -57,7 +57,7 @@ export default function Contact() {
                             type="text"
                             value={formData.name}
                             onChange={handleChange}
-                            placeholder='Admiral Cornwell'
+                            placeholder='Michael Myers'
                             required
                         />
                     </div>
@@ -70,7 +70,7 @@ export default function Contact() {
                             type="email"
                             value={formData.email}
                             onChange={handleChange}
-                            placeholder='adm.cornwell@starfleet.com'
+                            placeholder='mmyers@gmail.com'
                             required
                         />
                     </div>

@@ -4,6 +4,7 @@ import { useMutation } from '@apollo/client';
 import Auth from '../../utils/auth';
 import { LOGIN } from '../../utils/mutations';
 import { btnS, divWrapper1, divWrapper2, formDiv, h2, h2p, h2plink, hmessage, inputDiv } from './styles';
+import logo from '../../images/logo.png';
 
 function Login(props) {
     const [formState, setFormState] = useState({ email: '', password: '' });
@@ -40,17 +41,15 @@ function Login(props) {
                 <div className={divWrapper1}>
                     <div className={divWrapper2}>
                         <div>
-                        <h1 className={hmessage}
-                        >
-                            Welcome to Starfleet Academy
+                        <h1 className={hmessage}>
+                            You found it!
+                        <img src={logo} alt="logo" className="h-24 w-24 mx-auto" />
                         </h1>
-                            <h2 className={h2}>Login</h2>
                             <p className={h2p}>
                                 Don't have an account?
                                 <Link
                                     to="/signup"
-                                    className={h2plink}
-                                >
+                                    className={h2plink}>
                                     Signup
                                 </Link>
                             </p>
@@ -58,12 +57,11 @@ function Login(props) {
                                 <div className="mb-2">
                                     <label
                                         htmlFor="email"
-                                        className={formDiv}
-                                    >Email address:
+                                        className={formDiv}>Email address:
                                     </label>
                                     <input
                                         className={inputDiv}
-                                        placeholder="adm.cornwell@starfleet.com"
+                                        placeholder="mmyers@gmail.com"
                                         name="email"
                                         type="email"
                                         id="email"

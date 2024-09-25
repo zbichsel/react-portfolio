@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../images/sfacademy.jpeg';
+import pic from '../../images/Hends.jpg';
 import { divWrapper, divImg, divH1 } from './styles';
 import { motion } from 'framer-motion';
 
@@ -27,7 +27,7 @@ export default function SecretHP() {
                 <h1
                     className={divH1}
                 >
-                    Welcome to Starfleet Academy
+                    Happy Halloween!
                 </h1>
             </motion.div>
         );

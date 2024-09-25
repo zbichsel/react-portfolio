@@ -1,9 +1,9 @@
-export const divWrapper = "grid md:grid-cols-2 grid-rows-1 sm:grid-cols-1 bg-zinc-200/95 p-4 max-w-screen-3xl";
+export const divWrapper = "flex xs:flex-col xs:items-center xs:justify-center xs:p-2 xs:m-3 md:flex-row md:items-center md:justify-evenly md:p-4 md:m-6";
 
 // !===!
 
-export const divImg = "flex flex-row justify-center items-center invisible md:visible md:m-8 md:mr-4 ml-4 my-4 p-2 bg-center bg-cover bg-no-repeat rounded-xl shadow-white/25 shadow-sm h-64 w-64";
+export const divImg = "xs:w-64 xs:h-64 rounded-md xs:p-2 xs:m-3 bg-no-repeat bg-cover bg-center";
 
 // !===!
 
-export const divH1 = "flex flex-wrap col-span-2 justify-center items-center text-center text-5xl antialiased font-bold text-blue-500 font-scary md:ml-0 md:my-4 mx-4 p-2 bg-no-repeat bg-center bg-cover h-72 lg:h-[21rem] xl:h-[25rem] 2xl:h-[33rem] leading-normal";
+export const divH1 = "text-[#df993a] font-scary xs:p-2 xs:m-3 xs:text-4xl";

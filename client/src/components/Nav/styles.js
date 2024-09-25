@@ -26,6 +26,6 @@ export const itemsul = "font-medium flex flex-col p-4 w-full items-center justif
 
 // !===!
 
-export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-zinc-50 antialiased font-semibold rounded hover:underline hover:bg-purple-800 md:hover:bg-transparent md:border-0 md:hover:text-pink-400 md:p-0";
+export const items = "block py-2 pl-3 pr-4 font-nav text-center w-80 md:w-auto text-zinc-50 antialiased font-semibold rounded hover:underline md:border-0 md:hover:text-pink-400 md:p-0";
 
 // !===!
