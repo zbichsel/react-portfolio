@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-export default function SpotifyPlayer() {
+function SpotifyPlayer() {
 
     const CLIENT_ID = "af97b68e67954fc99300dd0484dc2a75";
     const REDIRECT_URI = "https://geistx-f7997d6a509e.herokuapp.com/secret";
@@ -68,26 +68,58 @@ export default function SpotifyPlayer() {
 
 
     return (
-        <div className='bg-orange-400 p-2'>
-        <div className='grid grid-cols-2 grid-rows-6 grid-flow-row gap-6 m-2.5 p-6 bg-purple-900 shadow-sm shadow-black border border-purple-800 rounded-sm [&>div]:text-orange-400 [&>div]:font-nav [&>div]:uppercase [&>div]:antialiased [&>div]:text-sm [&>div]:justify-center [&>div]:items-center [&>div]:m-2.5 [&>div]:p-2 [&>div]:bg-purple-800 [&>div]:border [&>div]:border-purple-700 [&>div]:shadow-sm [&>div]:shadow-black [&>div]:rounded-sm text-center'>
-            <header>
-                <h1 className='text-2xl text-orange-400'>Spotify Search Artists</h1>
-                {!token ?
-                    <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPOSNE_TYPE}`}>Login to Spotify</a>
-                    : <button className='border border-white px-2 m-2 rounded-full bg-purple-800 hover:bg-purple-700 focus:ring-2 focus:ring-purple-200 text-orange-400' onClick={logout}>Logout</button>}
+        <div
+            className='bg-orange-400 p-2'
+        >
+            <div
+                className='grid grid-cols-2 grid-rows-6 grid-flow-row gap-6 m-2.5 p-6 bg-purple-900 shadow-sm shadow-black border border-purple-800 rounded-sm [&>div]:text-orange-400 [&>div]:font-nav [&>div]:uppercase [&>div]:antialiased [&>div]:text-sm [&>div]:justify-center [&>div]:items-center [&>div]:m-2.5 [&>div]:p-2 [&>div]:bg-purple-800 [&>div]:border [&>div]:border-purple-700 [&>div]:shadow-sm [&>div]:shadow-black [&>div]:rounded-sm text-center'
+            >
+                <header>
+                    <h1
+                        className='text-2xl text-orange-400'
+                    >
+                        Spotify Search Artists
+                    </h1>
+                    {!token ?
+                        <a
+                            href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPOSNE_TYPE}`}
+                        >
+                            Login to Spotify
+                        </a>
+                        : <button
+                            className='border border-white px-2 m-2 rounded-full bg-purple-800 hover:bg-purple-700 focus:ring-2 focus:ring-purple-200 text-orange-400'
+                            onClick={logout}
+                        >
+                            Logout
+                        </button>}
 
-                {token ?
-                    <form className='grid items-center justify-center text-center border rounded-sm shadow-black shadow bg-purple-800 p-2' onSubmit={searchArtists}>
-                        <input className='w-auto rounded-sm pl-2 mb-2' type="text" onChange={e => setSearchKey(e.target.value)} />
-                        <button className='border border-white rounded-full bg-purple-900 text-orange-400 focus:ring-2 focuse:ring-purple-200 hover:bg-purple-700 shadow-sm shadow-black' type={"submit"}>Search</button>
-                    </form>
+                    {token ?
+                        <form
+                            className='grid items-center justify-center text-center border rounded-sm shadow-black shadow bg-purple-800 p-2'
+                            onSubmit={searchArtists}
+                        >
+                            <input
+                                className='w-auto rounded-sm pl-2 mb-2'
+                                type="text"
+                                onChange={e => setSearchKey(e.target.value)}
+                            />
+                            <button
+                                className='border border-white rounded-full bg-purple-900 text-orange-400 focus:ring-2 focuse:ring-purple-200 hover:bg-purple-700 shadow-sm shadow-black' type={"submit"}
+                            >
+                                Search
+                            </button>
+                        </form>
 
-                    : <h2 className=''>Please login</h2>
-                }
+                        : <h2>
+                            Please login
+                        </h2>
+                    }
 
-            </header>
+                </header>
                 {renderArtists()}
-        </div>
+            </div>
         </div>
     )
 };
+
+export default SpotifyPlayer;

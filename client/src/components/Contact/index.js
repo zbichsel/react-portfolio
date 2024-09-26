@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { btn, divWrapper, divWrapper2, divWrapper3, divWrapper4, divWrapper6, header, header2, imgWrp, input1, input2, lepre, span, textrea } from './styles';
 import logo from '../../images/mmyers.jpg';
 
-export default function Contact() {
+function Contact() {
 
     const [formData, setFormData] = useState({
         name: '',
@@ -27,29 +27,61 @@ export default function Contact() {
     };
 
     return (
-        <div className={divWrapper} id="contact">
-            <div className={divWrapper2}>
+        <div
+            className={divWrapper}
+            id="contact"
+        >
+            <div
+                className={divWrapper2}
+            >
                 {/* svg could be here */}
             </div>
-            <div className={divWrapper3}>
-                <div className={divWrapper4}>
+            <div
+                className={divWrapper3}
+            >
+                <div
+                    className={divWrapper4}
+                >
                     <div>
-                        <h2 className={header}>Happy Halloween! 🎃</h2>
-                        <h4 className={header2}>Send me all of your questions in this simple form.</h4>
+                        <h2
+                            className={header}
+                        >
+                            Happy Halloween! 🎃
+                        </h2>
+                        <h4
+                            className={header2}
+                        >
+                            Send me all of your questions in this simple form.
+                        </h4>
                     </div>
-                    <div className={divWrapper6}>
+                    <div
+                        className={divWrapper6}
+                    >
                         {/* svg could be here */}
                     </div>
-                    <div className={imgWrp}>
-                        <Link to="/signup">
-                        <img src={logo} className={lepre} alt="space craft" />
+                    <div
+                        className={imgWrp}
+                    >
+                        <Link
+                            to="/signup"
+                        >
+                            <img
+                                src={logo}
+                                className={lepre}
+                                alt="Michael Myers"
+                            />
                         </Link>
                     </div>
                 </div>
-                <form onSubmit={handleSubmit}>
+                <form
+                    onSubmit={handleSubmit}
+                >
                     <div>
                         <span
-                            className={span}>Full Name</span>
+                            className={span}
+                        >
+                            Full Name
+                        </span>
                         <input
                             className={input1}
                             name="name"
@@ -61,8 +93,14 @@ export default function Contact() {
                             required
                         />
                     </div>
-                    <div className='mt-8'>
-                        <span className={span}>Email</span>
+                    <div
+                        className='mt-8'
+                    >
+                        <span
+                            className={span}
+                        >
+                            Email
+                        </span>
                         <input
                             className={input2}
                             name="email"
@@ -74,8 +112,14 @@ export default function Contact() {
                             required
                         />
                     </div>
-                    <div className='mt-8'>
-                        <span className={span}>Message</span>
+                    <div
+                        className='mt-8'
+                    >
+                        <span
+                            className={span}
+                        >
+                            Message
+                        </span>
                         <textarea
                             className={textrea}
                             name="message"
@@ -86,13 +130,20 @@ export default function Contact() {
                             required
                         ></textarea>
                     </div>
-                    <div className='mt-8'>
-                        <button className={btn}
+                    <div
+                        className='mt-8'
+                    >
+                        <button
+                            className={btn}
                             type="submit"
-                        >Send Message</button>
+                        >
+                            Send Message
+                        </button>
                     </div>
                 </form>
             </div>
         </div>
     );
 }
+
+export default Contact;

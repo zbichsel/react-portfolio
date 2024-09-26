@@ -7,7 +7,7 @@ import logo from '../../images/logo.png';
 
 import { divWrapper1, divWrapper2, formDiv, inputDiv, btnS, h2p, h2plink } from './styles';
 
-export default function Signup(props) {
+function Signup(props) {
     const [formState, setFormState] = useState({ email: '', password: '' });
     const [addUser] = useMutation(ADD_USER);
 
@@ -34,12 +34,21 @@ export default function Signup(props) {
     };
 
     return (
-        <div className={divWrapper1}>
-            <div className={divWrapper2}
+        <div
+            className={divWrapper1}
+        >
+            <div
+                className={divWrapper2}
             >
                 <div>
-                    <img src={logo} alt="logo" className='h-24 w-24 mx-auto' />
-                    <p className={h2p}>
+                    <img
+                        src={logo}
+                        alt="logo"
+                        className='h-24 w-24 mx-auto'
+                    />
+                    <p
+                        className={h2p}
+                    >
                         Already have an account?
                         <Link
                             to="/login"
@@ -48,8 +57,12 @@ export default function Signup(props) {
                             login
                         </Link>
                     </p>
-                    <form onSubmit={handleFormSubmit}>
-                        <div className="mb-2">
+                    <form
+                        onSubmit={handleFormSubmit}
+                    >
+                        <div
+                            className="mb-2"
+                        >
                             <label
                                 htmlFor="firstName"
                                 className={formDiv}
@@ -64,7 +77,9 @@ export default function Signup(props) {
                                 className={inputDiv}
                             />
                         </div>
-                        <div className="mb-2">
+                        <div
+                            className="mb-2"
+                        >
                             <label
                                 htmlFor="lastName"
                                 className={formDiv}
@@ -121,3 +136,5 @@ export default function Signup(props) {
         </div>
     );
 }
+
+export default Signup;

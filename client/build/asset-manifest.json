@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ffc38e8.css",
-    "main.js": "/static/js/main.eb7dd95a.js",
+    "main.css": "/static/css/main.d4fe3622.css",
+    "main.js": "/static/js/main.06c4a562.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/The Junk Yard.wav": "/static/media/The Junk Yard.18e2007284235986330a.wav",
     "static/media/The Procession.wav": "/static/media/The Procession.d4b78b05377eb7f8f36e.wav",
@@ -20,12 +20,12 @@
     "static/media/mmyers.jpg": "/static/media/mmyers.8ce7b9966c0eab25d66f.jpg",
     "static/media/other.svg": "/static/media/other.3e3e839804cf4de11dae8665ae0631ef.svg",
     "index.html": "/index.html",
-    "main.2ffc38e8.css.map": "/static/css/main.2ffc38e8.css.map",
-    "main.eb7dd95a.js.map": "/static/js/main.eb7dd95a.js.map",
+    "main.d4fe3622.css.map": "/static/css/main.d4fe3622.css.map",
+    "main.06c4a562.js.map": "/static/js/main.06c4a562.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ffc38e8.css",
-    "static/js/main.eb7dd95a.js"
+    "static/css/main.d4fe3622.css",
+    "static/js/main.06c4a562.js"
   ]
 }

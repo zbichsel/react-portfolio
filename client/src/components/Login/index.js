@@ -38,14 +38,25 @@ function Login(props) {
             return <Navigate to="/secret" />
         } else {
             return (
-                <div className={divWrapper1}>
-                    <div className={divWrapper2}>
+                <div
+                    className={divWrapper1}
+                >
+                    <div
+                        className={divWrapper2}
+                    >
                         <div>
-                        <h1 className={hmessage}>
-                            You found it!
-                        <img src={logo} alt="logo" className="h-24 w-24 mx-auto" />
-                        </h1>
-                            <p className={h2p}>
+                            <h1
+                                className={hmessage}
+                            >
+                                <img
+                                    src={logo}
+                                    alt="logo"
+                                    className="h-24 w-24 mx-auto"
+                                />
+                            </h1>
+                            <p
+                                className={h2p}
+                            >
                                 Don't have an account?
                                 <Link
                                     to="/signup"
@@ -53,11 +64,17 @@ function Login(props) {
                                     Signup
                                 </Link>
                             </p>
-                            <form onSubmit={handleFormSubmit}>
-                                <div className="mb-2">
+                            <form
+                                onSubmit={handleFormSubmit}
+                            >
+                                <div
+                                    className="mb-2"
+                                >
                                     <label
                                         htmlFor="email"
-                                        className={formDiv}>Email address:
+                                        className={formDiv}
+                                    >
+                                        Email address:
                                     </label>
                                     <input
                                         className={inputDiv}
@@ -68,11 +85,14 @@ function Login(props) {
                                         onChange={handleChange}
                                     />
                                 </div>
-                                <div className="mb-2">
+                                <div
+                                    className="mb-2"
+                                >
                                     <label
                                         htmlFor="pwd"
                                         className={formDiv}
-                                    >Password:
+                                    >
+                                        Password:
                                     </label>
                                     <input
                                         className={inputDiv}
@@ -85,11 +105,21 @@ function Login(props) {
                                 </div>
                                 {error ? (
                                     <div>
-                                        <p className="error-text text-red-600">The provided credentials are incorrect</p>
+                                        <p
+                                            className="error-text text-red-600"
+                                        >
+                                            The provided credentials are incorrect
+                                        </p>
                                     </div>
                                 ) : null}
-                                <div className={btnS}>
-                                    <button type="submit">Login</button>
+                                <div
+                                    className={btnS}
+                                >
+                                    <button
+                                        type="submit"
+                                    >
+                                        Login
+                                    </button>
                                 </div>
                             </form>
                         </div>

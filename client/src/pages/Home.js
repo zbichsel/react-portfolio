@@ -10,14 +10,16 @@ import Auth from '../utils/auth';
 import { Navigate } from 'react-router-dom';
 
 
-export default function Home() {
+function Home() {
     console.log("If you're reading this, find the secret button, create an account, play my quiz and listen to a spooky song. 🎃🔪👻\n\nHappy Halloween!");
 
     if (Auth.loggedIn()) {
-        return <Navigate to="/secret" />
+        return <Navigate
+            to="/secret"
+        />
     } else {
         return (
-            <>
+            <div>
                 <Header />
                 <Nav />
                 <About />
@@ -25,7 +27,9 @@ export default function Home() {
                 <Portfolio />
                 <Contact />
                 <Footer />
-            </>
+            </div>
         );
     }
-}
+};
+
+export default Home;

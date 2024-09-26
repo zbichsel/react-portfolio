@@ -1,7 +1,7 @@
 import React from "react";
 import Signups from "../components/Signup";
 
-const Signup = () => {
+function Signup() {
     return (
         <div>
             <div>

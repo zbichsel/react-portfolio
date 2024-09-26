@@ -38,3 +38,10 @@ export const vector = "w-5 h-5 fill-current dark:text-gray-600";
 
 // !===!
 
+export const button = "p-2 m-4 text-gray-800 dark:text-white rounded-md focus:outline-none absolute top-0 right-0";
+
+// !===!
+
+export const svg = "xs:w-12 xs:h-12 md:w-24 md:h-24 antialiased border rounded-lg";
+
+// !===!

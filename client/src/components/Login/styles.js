@@ -1,4 +1,4 @@
-export const divWrapper1 = "h-screen grid place-content-center place-items-center bg-none";
+export const divWrapper1 = "h-svh grid place-content-center place-items-center bg-none";
 
 // !===!
 
