@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[859],{859:(e,o,c)=>{e.exports=c.p+"static/media/Bye Bye Corey.10ea16d924cbb6bcc296.wav"}}]);
