@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[575],{575:(a,e,c)=>{a.exports=c.p+"static/media/Corey and Michael.fbbca86286c8a2e49ca1.wav"}}]);
